@@ -14,7 +14,7 @@ export default {
         await axios.post('http://localhost:5000/api/taB', { message: 'hello' });
         console.log('Message "hello" envoyé avec succès');
       } catch (error) {
-        console.error('Erreur lors de l'envoi du message :', error);
+        console.error('Erreur lors de l/envoi du message :', error);
       }
     }
   }

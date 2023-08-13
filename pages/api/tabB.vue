@@ -20,9 +20,6 @@ export default {
       console.log(data)
       this.receivedMessage = data.message;
     });
-    this.$pusher.subscribe('my-channel').bind('pusher:subscription_succeeded', data => {
-      console.log('Abonnement réussi au canal my-channel');
-     });
   }
 }
 </script>
